@@ -29,7 +29,7 @@ RUN curl https://static.rust-lang.org/rustup.sh | sh -s -- \
 
 # Compile C libraries with musl-gcc
 ENV SSL_VER=1.0.2l \
-    CURL_VER=7.54.1 \
+    CURL_VER=7.55.1 \
     CC=musl-gcc \
     PREFIX=/usr/local \
     PATH=/usr/local/bin:$PATH \
